@@ -11,5 +11,14 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "slick-carousel": "^1.8.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonysmark/Tonysmark.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tonysmark/Tonysmark.github.io/issues"
+  },
+  "homepage": "https://github.com/Tonysmark/Tonysmark.github.io#readme"
 }
