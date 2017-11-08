@@ -16,6 +16,10 @@ header{
 header div{
   margin-top: 20px;
 }
+#lf{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 #lf img{
   margin-top: 0px;
   max-width: 90px;
@@ -43,7 +47,7 @@ width: 90px;
   color:#fff;
 }
 #rt{
-  margin-top: 35px;
+  margin-top: 20px;
 }
 #rt a{
   text-decoration: none;
