@@ -1,0 +1,23 @@
+{
+  "name": "tonysmark.github.io",
+  "version": "1.0.0",
+  "description": "this is my blog",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonysmark/tonysmark.github.io.git"
+  },
+  "author": "tonysmark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonysmark/tonysmark.github.io/issues"
+  },
+  "homepage": "https://github.com/Tonysmark/tonysmark.github.io#readme",
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
