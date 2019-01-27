@@ -1,0 +1,38 @@
+@font-face {
+    font-family: arabella;
+    src: url('../fonts/arabella.ttf')
+}
+
+.sidenav .logoinfo {
+    font-size: 50px;
+    color: #e53935;
+    font-family: arabella;
+    margin: 25px auto
+}
+
+.sidenav .logoinfo:hover {
+    background: none;
+}
+
+.sidenav .contact {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sidenav .contact:hover {
+    transition: 0.3 ease-out;
+    color: #e53935
+}
+
+.no-padding .collapsible {
+    display: block;
+}
+
+
+.collapsible-body>li{
+    transition: .3s ease-out;
+    padding-left: 40px;
+}
+.sidenav .collapsible-body li a{
+    padding: 0 15px 0 43px
+}
