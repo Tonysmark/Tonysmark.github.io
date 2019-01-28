@@ -16,8 +16,5 @@
     "url": "https://github.com/Tonysmark/tonysmark.github.io/issues"
   },
   "homepage": "https://tonysmark.github.io",
-  "devDependencies": {
-    "jquery": "^3.3.1",
-    "materialize-css": "^1.0.0-rc.2"
-  }
+  "devDependencies": {}
 }
