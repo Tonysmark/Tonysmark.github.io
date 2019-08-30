@@ -1,20 +1,31 @@
 {
-  "name": "tonysmark.github.io",
-  "version": "1.0.0",
-  "description": "this is my blog",
-  "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tonysmark/tonysmark.github.io.git"
-  },
-  "author": "tonysmark",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tonysmark/tonysmark.github.io/issues"
-  },
-  "homepage": "https://tonysmark.github.io",
-  "devDependencies": {}
+	"name": "tonysmark.github.io",
+	"version": "0.1.0",
+	"private": true,
+	"main": "./dist/index.html",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"ant-design-vue": "^1.3.16",
+		"core-js": "^2.6.5",
+		"register-service-worker": "^1.6.2",
+		"vue": "^2.6.10",
+		"vue-class-component": "^7.0.2",
+		"vue-property-decorator": "^8.1.0",
+		"vue-router": "^3.0.3",
+		"vuex": "^3.0.1"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.11.0",
+		"@vue/cli-plugin-pwa": "^3.11.0",
+		"@vue/cli-plugin-typescript": "^3.11.0",
+		"@vue/cli-service": "^3.11.0",
+		"node-sass": "^4.9.0",
+		"sass-loader": "^7.1.0",
+		"typescript": "^3.4.3",
+		"vue-template-compiler": "^2.6.10"
+	}
 }
